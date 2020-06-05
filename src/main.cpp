@@ -650,19 +650,19 @@ void loop()
   display.setFont(ArialMT_Plain_10);
   display.drawString(30, 45, WiFi.localIP().toString());
 
-  // ! test led 12E
-  if (dem < 10)
-  {
-    digitalWrite(LED_BUILTIN, 1);
-    delay(30);
-    dem++;
-  }
-  else if (dem < 20)
-  {
-    digitalWrite(LED_BUILTIN, 0);
-    delay(30);
-    dem++;
-  }
-  if (dem >= 20)
-    dem = 0;
+  // // ! test led 12E
+  // if (dem < 10)
+  // {
+  //   digitalWrite(LED_BUILTIN, 1);
+  //   delay(30);
+  //   dem++;
+  // }
+  // else if (dem < 20)
+  // {
+  //   digitalWrite(LED_BUILTIN, 0);
+  //   delay(30);
+  //   dem++;
+  // }
+  // if (dem >= 20)
+  //   dem = 0;
 }
